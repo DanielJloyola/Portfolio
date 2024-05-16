@@ -50,30 +50,25 @@ on s.students_id = m.metier_id
 
 -- Table Students
 
-ID	student_name		Metier_ID
-1 	Sylvia Rocco		703
-2	Francesco Semenara	722
-3	Diana Acks		644
-
-
-
+ID	student_name	      	Metier_ID
+1 	Sylvia Rocco		      703
+2	  Francesco Semenara  	722
+3	  Diana Acks	        	644
 
 
 -- Table Metiers
 
 ID	metier_name		metier_ID		
-1 	Theater			703
-2	Finance			722
-3	Hospitality		644
+1 	Theater			  703
+2	  Finance			  722
+3	  Hospitality		644
 
 
 -- Joined Functions
 
-
-
-ID	student_name		metier_ID	metier_ID	Metier_name		
-1 	Sylvia Rocco		703		703		Theater
-2	Francesco Semenara	722		722		Finance
-3	Diana Acks		644		644		Hospitality
+ID	student_name		    metier_ID	metier_ID	    Metier_name		
+1 	Sylvia Rocco	    	703		    703		        Theater
+2	  Francesco Semenara	722		    722	        	Finance
+3  	Diana Acks		      644	      644	          Hospitality
 
 
