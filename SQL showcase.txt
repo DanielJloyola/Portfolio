@@ -1,0 +1,79 @@
+-- Sorting Data for movies
+
+SELECT *
+FROM Movies
+ORDER BY year
+
+
+id	title				year
+2	Star Wars			1977
+1	Home Alone			1990
+3	Jurassic Park			1993
+5	Pirates of the Caribbean	2003
+4	Frozen				2013
+
+
+
+-- Filtering data for Album Names
+
+SELECT *
+FROM Albums
+WHERE name = 'Lose Yourself Volume 1'
+
+id	name			year_released
+24	Lose Yourself Voluma 1	2021
+
+
+
+-- Filtering Song Lengths
+
+SELECT *
+FROM songs
+WHERE length > 9
+
+ID	title				Length
+7 	Success in Alpha Beta		9:59
+13	Origins in Delta Theta		10:03
+
+
+
+-Joins
+
+SELECT * from Students
+SELECT * from metier
+
+SELECT *
+from * students as s
+inner join
+metier as m
+on s.students_id = m.metier_id
+
+-- Table Students
+
+ID	student_name		Metier_ID
+1 	Sylvia Rocco		703
+2	Francesco Semenara	722
+3	Diana Acks		644
+
+
+
+
+
+-- Table Metiers
+
+ID	metier_name		metier_ID		
+1 	Theater			703
+2	Finance			722
+3	Hospitality		644
+
+
+-- Joined Functions
+
+
+
+ID	student_name		metier_ID	metier_ID	Metier_name		
+1 	Sylvia Rocco		703		703		Theater
+2	Francesco Semenara	722		722		Finance
+3	Diana Acks		644		644		Hospitality
+
+
