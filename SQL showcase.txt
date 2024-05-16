@@ -1,7 +1,7 @@
 -- Sorting Data for movies
 
 SELECT *
-FROM Movies
+FROM movies
 ORDER BY year
 
 
@@ -17,7 +17,7 @@ id	title				year
 -- Filtering data for Album Names
 
 SELECT *
-FROM Albums
+FROM albums
 WHERE name = 'Lose Yourself Volume 1'
 
 id	name			year_released
