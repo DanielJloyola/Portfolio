@@ -39,7 +39,7 @@ ID	title				Length
 
 --Joins
 
-SELECT * from Students
+SELECT * from students
 SELECT * from metier
 
 SELECT *
